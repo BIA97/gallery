@@ -5,7 +5,7 @@
     }
 
     [class*="__container"] {
-        min-width: 970px;
+        max-width: 970px;
         padding: 0 20px;
         margin: 0 auto;
     }
@@ -51,7 +51,8 @@
             }
         }
         .main-gallery {
-    
+            display: flex;
+            flex-direction: column;
             &__container {}
     
             &__content {
